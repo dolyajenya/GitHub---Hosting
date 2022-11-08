@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-  color: #7c7c7c;
+  color: black;
   font-size: 24px;
   line-height: 28px;
   margin: 0;
@@ -15,7 +15,7 @@ ul {
 }
 
 li {
-  color: #7c7c7c;
+  color: black;
   font-size: 16px;
   height: 19px;
   line-height: 1;
@@ -27,7 +27,7 @@ li {
   display: block;
   margin: o auto;
   padding: 30px auto;
-  max-width: 960px;
+  max-width: 950px;
 }
 
 .weather-app {
@@ -38,7 +38,7 @@ li {
   max-width: 600px;
 }
 
-.weather-icon {
+.weather-icon-matt {
   height: 64px;
   width: 64px;
   margin-right: 10px;
@@ -62,4 +62,30 @@ li {
 
 .main-description {
   text-transform: capitalize;
+}
+
+.hourly-forecast {
+  display: block;
+  margin: 20px 0;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+  max-width: 80%;
+}
+
+.weather-icon {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.weekly-forecast {
+  text-align: center;
+  border-radius: 30px;
+  background-color: #fff;
+  width: 143px;
+  height: 109px;
+  margin: 20px 0;
+  padding: 14px 14px;
+  max-width: 90%;
 }
