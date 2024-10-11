@@ -113,24 +113,28 @@ li {
   background: black;
   border-radius: 15px;
   color: #fff;
+  border-color: black;
 }
 
 .btn-primary:hover {
   background: #fff;
   border-radius: 15px;
   color: black;
+  border-color: black;
 }
 
-.btn-secondary {
+.btn-success {
   background: #727272;
   border-radius: 15px;
   color: #fff;
+  border-color: #727272;
 }
 
-.btn-secondary:hover {
+.btn-success:hover {
   background: #fff;
   border-radius: 15px;
   color: black;
+  border-color: rgb(199, 199, 199);
 }
 
 .link-code {
