@@ -65,7 +65,7 @@ li {
 
 .form-control {
   border-radius: 15px;
-  border: 1px solid #727272;
+  border: 1px solid #E5E4E4;
 }
 
 .form-control:hover {
@@ -82,7 +82,7 @@ li {
 .weather-forecast {
   display: flex;
   justify-content: space-around;
-  border-radius: 30px; 
+  border-radius: 24px; 
   padding: 16px 24px;
   background-color: #fff;
   margin: 8px;
