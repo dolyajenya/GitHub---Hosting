@@ -20,8 +20,7 @@ ul {
 li {
   color: #728DBC;
   font-size: 16px;
-  height: 19px;
-  line-height: 1;
+  line-height: 22px;
   list-style: none;
 }
 
@@ -48,7 +47,7 @@ li {
 
 .temperature {
   color: #212121;
-  font-size: 64px;
+  font-size: 72px;
   font-weight: 400;
   line-height: 1;
 }
@@ -56,7 +55,7 @@ li {
 
 .units {
   position: relative;
-  top: -34px;
+  top: -44px;
 }
 
 .search-form {
@@ -128,17 +127,19 @@ li {
 }
 
 .btn-primary:hover {
-  background: #fff;
+  background: #E6E6E6;
   border-radius: 15px;
   color: #212121;
-  border-color: #212121;
+  border-color: #E6E6E6;
 }
 
 .btn-success {
   border-radius: 15px;
   border: 1px solid #EEF8FE;
-  background: #FFF;
-  color: #212121;
+  background: #728DBC;
+  color: #FFF;
+  align-items: center;
+  gap: 8px;
 }
 
 .btn-success:hover {
@@ -151,4 +152,16 @@ li {
 .link-code {
   font-size: 14px;
   margin-left: 60px;
+}
+
+
+.fa-map-marker-alt {
+  max-width: 16px; 
+  max-height: 16px; 
+  margin-right: 8px; 
+  color: #fff;
+}
+
+.fa-map-marker-alt:hover { 
+  color: #212121;
 }
